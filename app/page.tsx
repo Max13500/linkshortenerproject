@@ -144,28 +144,6 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="mx-auto w-full max-w-4xl px-6 py-20 text-center md:px-10">
-        <div className="rounded-[2rem] border border-border bg-card px-6 py-12 shadow-sm sm:px-10">
-          <h2 className="text-3xl font-semibold tracking-tight text-card-foreground">
-            Ready to turn long URLs into better links?
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Create an account to start shortening, organizing, and tracking the links you share every day.
-          </p>
-          <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <SignUpButton mode="modal">
-              <Button size="lg" className="px-6">
-                Create free account
-              </Button>
-            </SignUpButton>
-            <SignInButton mode="modal">
-              <Button variant="outline" size="lg" className="px-6">
-                I already have an account
-              </Button>
-            </SignInButton>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
