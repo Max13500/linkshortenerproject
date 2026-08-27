@@ -1,6 +1,6 @@
 import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
-import { BarChart3, Link2, ShieldCheck, Zap } from "lucide-react";
+import { BarChart3, Globe2, Link2, Zap } from "lucide-react";
 import { redirect } from "next/navigation";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -22,7 +22,7 @@ const features = [
     title: "Built for reliable sharing",
     description:
       "Keep campaigns, social posts, and internal resources easy to manage from one place.",
-    icon: ShieldCheck,
+    icon: Globe2,
   },
   {
     title: "Fast workflow for teams",
