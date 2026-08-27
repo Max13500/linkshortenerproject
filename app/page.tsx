@@ -2,8 +2,7 @@ import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
 import { BarChart3, Globe2, Link2, Zap } from "lucide-react";
 import { redirect } from "next/navigation";
-import { Button, buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 const features = [
   {
@@ -71,9 +70,6 @@ export default async function Home() {
                   Sign in
                 </Button>
               </SignInButton>
-              <a href="#features" className={cn(buttonVariants({ variant: "ghost", size: "lg" }), "px-6")}>
-                Explore features
-              </a>
             </div>
           </div>
 
