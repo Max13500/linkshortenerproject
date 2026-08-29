@@ -14,3 +14,4 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - [Authentication](docs/authentication.md) — Clerk-only auth, protected `/dashboard` route, home page redirect, modal sign-in/sign-up.
 - [UI Components](docs/ui-components.md) — shadcn/ui only, no custom components.
+- [Data Mutations](docs/data-mutations.md) — server actions only, colocated `actions.ts`, typed inputs, zod validation, auth check, `/data` helper functions for Drizzle queries.
